@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Workout Repetition Timer</string>
+
+    <!--Database-->
+    <string name="rep_database_name">RunningStopwatch</string>
+    <string name="rep_table_name">RepsData</string>
+
+    <string name="rep_cycle_id_key">rowid</string>
+    <string name="rep_cycle_name_key">RepCycleName</string>
+    <string name="rep_cycle_list_key">RepCycleList</string>
+    <string name="rep_cycle_repetitions_key">RepCycleRepetitions</string>
+
+    <string name="rep_cycle_extras_key">RepCycleKey</string>
+
+    <!--Tag-->
+    <string name="rep_cycles_tag_prefix">repCycleNameTextView</string>
+    <string name="rep_cycles_item_tag_prefix">repCycleItemTextView</string>
+    <string name="rep_cycles_change_item_tag_prefix">repCycleItemChangeTextView</string>
+
+    <!--Toast Messages-->
+    <string name="empty_rep_list_message">You have no workouts yet. Add one.</string>
+    <string name="empty_add_list_item_edit_text_message">Add a number to the textbox, you moron</string>
+    <string name="empty_list_message">Add a number to the list, you moron</string>
+    <string name="empty_name_message">Add a name, my mans</string>
+    <string name="no_selected_save_rep_cycle_radio_group">Choose to save or not save dude</string>
+
+    <!--Dialog-->
+    <string name="delete_rep_cycle_message">Would you like to delete \"%s\"?</string>
+    <string name="delete_rep_cycle_title">Delete?</string>
+    <string name="delete_rep_cycle_delete_button">Delete</string>
+    <string name="delete_rep_cycle_start_button">Start</string>
+
+    <string name="edit_rep_cycle_item_message">How would you like to edit \"%s\"?</string>
+    <string name="edit_rep_cycle_item_title">Edit \"%s\"?</string>
+    <string name="edit_rep_cycle_item_change_button">Change</string>
+    <string name="edit_rep_cycle_item_delete_button">Delete</string>
+
+    <string name="change_rep_cycle_item_message">Change \"%s\"</string>
+    <string name="change_rep_cycle_item_title">Change \"%s\"?</string>
+    <string name="change_rep_cycle_item_confirm_button">Change</string>
+    <string name="change_rep_cycle_item_cancel_button">Cancel</string>
+
+    <string name="exit_rep_cycle_timer_message">Are you sure you would like to exit. By exiting, the workout will finish.</string>
+    <string name="exit_rep_cycle_timer_title">Exit?</string>
+    <string name="exit_rep_cycle_timer_cancel">Cancel</string>
+    <string name="exit_rep_cycle_timer_exit">Exit</string>
+
+    <!--Rep Cycle List Activity-->
+    <string name="rep_cycle_add_list_item_edit_text_hint">Repetition items</string>
+    <string name="rep_cycle_add_list_item_button">Add</string>
+
+    <!--Rep Cycle Name Activity-->
+    <string name="save_rep_cycle_tv">Save</string>
+    <string name="dont_save_rep_cycle_tv">Don\'t Save</string>
+    <string name="rep_cycle_name_save_radio_group">Save</string>
+    <string name="rep_cycle_name_do_not_save_radio_group">Don\'t Save</string>
+    <string name="rep_cycle_add_name_rep_cycle_edit_text_hint"><font size="24">Name your workout</font></string>
+    <string name="start_rep_cycle_button">Start</string>
+
+    <!--Rep Cycle Repetitions Activity-->
+    <string name="rep_cycle_enter_repetitions_edit_text_hint"><font size="35">Number of cycles</font></string>
+
+    <!--Rep Cycle Timer Activity-->
+    <string name="default_rep_cycle_name">Unnamed Workout</string>
+
+    <!--General Activity-->
+    <string name="next_button">Next</string>
+
+</resources>
